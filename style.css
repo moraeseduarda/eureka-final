@@ -1,0 +1,737 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif !important ;
+    font-size: 1.09rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* .header{
+    position: fixed;
+    width: 100%;
+    height: 3.08rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(114, 114, 126, 0.2);
+    background-color: mediumseagreen;
+    border-bottom: 0.01rem black solid;
+} */
+
+/* .header d1{
+    padding-left: 2rem;
+    font-size: 1.5rem;
+} */
+.link-sobre, .link-individuais, .link-contato{
+    padding-right: 1rem;
+}
+.link-principal{
+    padding-right: 2rem;
+}
+
+.individuais, .principal, .contato{
+    width: 100%;
+    height: 50rem;
+}
+
+.contato {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+
+/*INÍCIO SOBRE NÓS*/
+
+    /* EDSON MACEDO JUNIOR */
+.sobre-main{
+    background-color: whitesmoke;
+    text-align: justify;
+    width: 100%;
+    height: 65rem;
+}
+
+.sobre-main img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.sobre-nos-titulo-Edson{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    /* margin-top: 5%; */
+    font-size: 2rem;
+}
+
+.texto-sobre-main-Edson{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.texto-titulo-paragrafo-Edson{
+    width: 25rem;
+    height:10rem;
+    /* padding-top: 0.2rem; */
+}
+
+/* FALAR COM O PROFESSOR SOBRE A LINHA, TENTAR FAZER IGUAL A DO SITE */
+.div-line-Edson{
+    width: 52%;
+    height: 16%;
+    border-bottom: 2px solid black;
+}
+
+.titulo-texto-Edson{
+    width: 300%;
+    font-size: 1.3rem;
+}
+
+.paragrafo-texto-Edson{
+    padding-top: 0.79rem;
+}
+
+.imagem-Edson{
+    padding-top: 4.5rem;
+}
+
+
+
+
+
+
+     /* EDUARDA MORAES */
+
+.sobre-nos-titulo-Eduarda{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+        
+.texto-sobre-main-Eduarda{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5rem;
+}
+        
+.texto-titulo-paragrafo-Eduarda{
+    width: 26rem;
+    height:10rem;
+}
+        
+/* FALAR COM O PROFESSOR SOBRE A LINHA, TENTAR FAZER IGUAL A DO SITE */
+.div-line-Eduarda{
+    width: 40%;
+    height: 16%;
+    border-bottom: 2px solid black;
+}
+
+.titulo-texto-Eduarda{
+    width: 300%;
+    font-size: 1.3rem;
+}
+
+.paragrafo-texto-Eduarda{
+    padding-top: 0.79rem;
+}
+        
+.imagem-Eduarda{
+    padding-top: 5.3rem;
+}
+/* FIM SOBRE NÓS */
+
+
+
+/*INÍCIO PRINCIPAL*/
+
+/* Falar com o professor, o principal esta por cima do header */
+.principal{
+    background-color: whitesmoke;
+}
+
+.projeto-principal{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+.bão{
+    width: 97%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 5rem;
+    background-color: whitesmoke;
+}
+.projetos-imagens{
+    width: 30rem;
+    height: 20rem;
+}
+.carousel-item img{
+    width: 30rem;
+    height: 20rem;
+}
+.accordion-flush{
+    width: 50%;
+}
+/* FIM PRINCIPAL */
+
+/* Contato */
+.contato h3{
+    text-align: left;
+}
+/* Fim Contato */
+
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 2px;
+}
+::-webkit-scrollbar-track{
+    background-color: grey;
+}
+::selection{
+    background-color: black;
+    color: white;
+}
+
+
+/* Responsivo */
+@media only screen and (max-width:600px){
+    
+} 
+
+/* DUDAAAAAAAAA */
+
+
+/* header */
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./imagens/1.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+nav img {
+    width: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: grey;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+/* fim do header */
+
+/* "home" */
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:is(:hover,:focus) {
+    color: rgb(0, 0, 0);
+}
+  
+.hero-btn::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    z-index: -1;
+    background-color: #ffffff;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: linear 350ms;
+}
+  
+.hero-btn:is(:hover, :focus)::after {
+    transform: scale(1);
+}
+.hero-btn:is(:hover, :focus)::after :active{
+    transform:translateY(-3);
+}
+
+.logo {
+    width: 133px;
+    height: 86px;
+}
+/* Fim home */
+
+.projetos-individuais {
+    background-color: white;
+}
+
+.projetos-individuais-height{
+    width: 80%;
+    height: 40rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.projetos-individuais-paragrafo{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.projetos-individuais-col p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.projetos-individuais-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    border-bottom: 2px solid rgb(17, 88, 255);
+    border-right: 2px solid rgb(17, 88, 255);
+    border-top: 2px solid white;  
+    border-left: 2px solid white;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.projetos-individuais-col:hover {
+    /* box-shadow: 0 0 20px 0px rgba(0,0,0,0.2); */
+    border-top: 
+        2px solid rgb(17, 88, 255);
+    border-left: 
+        2px solid rgb(17, 88, 255);
+    border-bottom: 
+        2px solid white;
+    border-right: 
+        2px solid white;
+    box-shadow: 
+        rgba(21, 137, 245, 0.5) 5px 5px, 
+        rgba(21, 137, 245, 0.4) 10px 10px, 
+        rgba(21, 137, 245, 0.3) 15px 15px, 
+        rgba(21, 137, 245, 0.2) 20px 20px, 
+        rgba(21, 137, 245, 0.1) 25px 25px;
+
+}
+
+.teste {
+    margin: auto;
+    width: 80%;
+    height: 48rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.teste-col {
+    flex-basis: 20%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.teste-col img {
+    width: 100%;
+    display: block;
+    border-radius: 10%;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 87%;
+    position: absolute;
+    top: 0;
+    left: auto;
+    border-radius: 9%;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(4,9,30,0.7);
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.portfolio{
+    padding-top: 2rem;
+    height: 60rem;
+    text-align: center;
+}
+.card{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    border-bottom: 2px solid rgb(17, 88, 255);
+    border-right: 2px solid rgb(17, 88, 255);
+    border-top: 2px solid white;  
+    border-left: 2px solid white;
+}
+.card:hover{
+    border-top: 
+    2px solid rgb(17, 88, 255);
+    border-left: 
+    2px solid rgb(17, 88, 255);
+    border-bottom: 
+    2px solid rgb(17, 88, 255);
+    border-right: 
+    2px solid rgb(17, 88, 255);
+    box-shadow: 
+    rgba(21, 137, 245, 0.5) 5px 5px, 
+    rgba(21, 137, 245, 0.4) 10px 10px, 
+    rgba(21, 137, 245, 0.3) 15px 15px, 
+    rgba(21, 137, 245, 0.2) 20px 20px, 
+    rgba(21, 137, 245, 0.1) 25px 25px;
+}
+
+
+/* animações download */
+/* slides horizontal */
+/* responsive */
+
+
+
+/* Botão Redes Sociais */
+.btn-cssbuttons {
+    --btn-color: #275efe;
+    position: relative;
+    padding: 16px 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: var(--btn-color);
+    border-radius: 24px;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons span,
+   .btn-cssbuttons span span {
+    display: inline-flex;
+    vertical-align: middle;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons span {
+    transition-delay: 0.05s;
+   }
+   
+   .btn-cssbuttons span:first-child {
+    padding-right: 7px;
+   }
+   
+   .btn-cssbuttons span span {
+    margin-left: 8px;
+    transition-delay: 0.1s;
+   }
+   
+   .btn-cssbuttons ul {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    transform: translateY(-50%);
+   }
+   
+   .btn-cssbuttons ul li {
+    flex: 1;
+   }
+   
+   .btn-cssbuttons ul li a {
+    display: inline-flex;
+    vertical-align: middle;
+    transform: translateY(55px);
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   }
+   
+   .btn-cssbuttons ul li a:hover {
+    opacity: 0.5;
+   }
+   
+   .btn-cssbuttons:hover::before {
+    transform: scale(1.2);
+   }
+   
+   .btn-cssbuttons:hover span,
+   .btn-cssbuttons:hover span span {
+    transform: translateY(-55px);
+   }
+   
+   .btn-cssbuttons:hover ul li a {
+    transform: translateY(0);
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(1) a {
+    transition-delay: 0.15s;
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(2) a {
+    transition-delay: 0.2s;
+   }
+   
+   .btn-cssbuttons:hover ul li:nth-child(3) a {
+    transition-delay: 0.25s;
+   }
+   /* Fim Botão Redes Sociais */
+
+   /* Footer */
+footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social-icon,
+footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social-icon li, 
+footer .menu li{
+    list-style: none;
+}
+
+footer .social-icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social-icon li a:hover{
+    transform: translateY(-10px);
+
+}
+
+footer .menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(./imagens/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave-02 4s linear infinite;
+}
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave-02 3s linear infinite;
+}
+@keyframes animateWave
+{
+    0% 
+    { 
+        background-position-x: 1000px;
+    }
+    100% 
+    { 
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave-02
+{
+    0% 
+    { 
+        background-position-x: 0px;
+    }
+    100% 
+    { 
+        background-position-x: 1000px;
+    }
+}
+
+
